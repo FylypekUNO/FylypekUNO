@@ -39,7 +39,7 @@ public class MainPage extends ReactComponent {
 [![My Skills](https://skillicons.dev/icons?i=pycharm,py)](https://skillicons.dev) /
 [![My Skills](https://skillicons.dev/icons?i=php,mysql)](https://skillicons.dev)
 
-## Learning
+## Currently Learning
 [![My Skills](https://skillicons.dev/icons?i=rust,deno)](https://skillicons.dev)
 
 <!--
