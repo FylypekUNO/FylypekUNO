@@ -36,6 +36,7 @@ public class MainPage extends ReactComponent {
 
 ## Used in the past
 [![My Skills](https://skillicons.dev/icons?i=robloxstudio,lua)](https://skillicons.dev) /
+[![My Skills](https://skillicons.dev/icons?i=pycharm,py)](https://skillicons.dev) /
 [![My Skills](https://skillicons.dev/icons?i=php,mysql)](https://skillicons.dev)
 
 ## Learning
