@@ -41,7 +41,7 @@ public class MainPage extends ReactComponent {
 [![My Skills](https://skillicons.dev/icons?i=php,mysql)](https://skillicons.dev)
 
 
-## Currently Learning
+## Side Learning
 [![My Skills](https://skillicons.dev/icons?i=rust,deno)](https://skillicons.dev)
 
 <!--
