@@ -5,7 +5,7 @@ Developing a HTML+CSS renderer (DOM, CSSOM and RenderTree) with basic css suppor
 Fully in Android Studio, so no javascript engine, client code will be in Java \
 And because of the need for logic to be written in Java, gonna make it React-like
 
-The React-like Goal:
+The React-like Goal (CSS support means ability to use beloved Tailwind):
 ```java
 public class MainPage extends Component {
   private final List<String> messages;
