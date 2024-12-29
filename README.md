@@ -3,7 +3,7 @@
 
 Developing a HTML+CSS renderer (DOM, CSSOM and RenderTree) with basic css support \
 Fully in Android Studio, so no javascript engine, client code will be in Java \
-And because of need for logicto be written in Java, gonna make it React-like
+And because of the need for logic to be written in Java, gonna make it React-like
 
 The React-like Goal:
 ```java
