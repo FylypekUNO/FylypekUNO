@@ -43,7 +43,7 @@ public class MainPage extends Component {
         </div>
       </div>
     """, 
-// Passing text/nodes/functions to {} places in string (not in a formatting matter, that's gonna be a nightmare)
+// Passing text/nodes/functions to {} places in string (not in a formatting matter, so that's gonna be a nightmare)
       messageHtml, 
       refreshButton 
     );
