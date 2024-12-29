@@ -1,30 +1,59 @@
 ## Currently Focused On:
-### [Kanapka-AI-Mobile](https://github.com/FylypekUNO/Kanapka-AI-Mobile) (in Android Studio - Java)
+### [Recreating Web DOM in Android](https://github.com/FylypekUNO/web-dom-in-android) - Teacher said the app has to be written in Android Studio, WebView doesn't sound right for that, so i found a better idea
 
-Developing a mobile app for the [kanapka-ai](https://github.com/Glider6014/kanapka-ai) project, which was created as part of a creative project during my internship at **Better Collective**.  
-As a React+Tailwind enthusiast, I have replaced all XML components and am now attempting to implement a React+Tailwind components system in Java.
+Developing a HTML+CSS renderer (DOM, CSSOM and RenderTree) with basic css support \
+Fully in Android Studio, so no javascript engine, client code will be in Java \
+And because of need for logicto be written in Java, gonna make it React-like
 
-Progress:
+The React-like Goal:
 ```java
-public class MainPage extends ReactComponent {
-  private final String message;
-  
-  public MainPage(String message) {
-    this.message = message;
+public class MainPage extends Component {
+  private final List<String> messages;
+  private int messageIndex = 0;
+
+  public MainPage(List<String> messages) {
+    this.messages = messages;
   }
-  
+
+  public void onRefreshBtnClick() {
+    if (messages == null || messages.isEmpty()) return;
+    messageIndex = (messageIndex + 1) % messages.size();
+    
+    refresh(); // full re-render, no optimization for now
+  }
+
   @Override
-  public React render() {
-    return div("inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50",
-      div("bg-white p-6 rounded shadow-md w-96",
-        div("text-2xl mb-4 text-gray-900", "Upgrading Plan"),
-        (message != null) ? div("mt-4 text-center text-gray-900", message) : null
-      )
+  public Component render() {
+    String currentMessage = (messages != null && !messages.isEmpty()) ? messages.get(messageIndex) : null;
+
+    Component messageNode = currentMessage != null 
+      ? html("<div class='mt-4 text-center text-gray-900'>{}</div>", currentMessage)
+      : null;
+
+    Component refreshButton = html("""
+      <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded" onclick="{}">Refresh</button>
+    """, this::onRefreshBtnClick);
+
+    return html("""
+      <div class="inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50">
+        <div class="bg-white p-6 rounded shadow-md w-96">
+          <div class="text-2xl mb-4 text-gray-900">Upgrading Plan</div>
+          {}
+          {}
+        </div>
+      </div>
+    """, 
+// Passing text/node to {} places in string (not in a formatting matter, that's gonna be a nightmare)
+      messageHtml, 
+      refreshButton 
     );
   }
 }
 ```
-
+Project is due 14 january \
+and thats not even the actual thing I'm gonna show there \
+because that's just a library needed to make my app \
+so...
 ### : D
 
 <br/>
