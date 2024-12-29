@@ -31,7 +31,7 @@ public class MainPage extends Component {
       : null;
 
     Component refreshButton = html("""
-      <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded" onclick="{}">Refresh</button>
+      <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded" onclick={}>Refresh</button>
     """, this::onRefreshBtnClick);
 
     return html("""
