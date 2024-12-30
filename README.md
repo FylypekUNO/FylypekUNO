@@ -23,7 +23,7 @@ public class MainPage extends Component {
   }
 
   @Override
-  public Component render() {
+  public RenderData render() {
     String currentMessage = (messages != null && !messages.isEmpty()) ? messages.get(messageIndex) : null;
 
     Component messageNode = currentMessage != null 
@@ -37,7 +37,7 @@ public class MainPage extends Component {
     return html("""
       <div class="inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50">
         <div class="bg-white p-6 rounded shadow-md w-96">
-          <div class="text-2xl mb-4 text-gray-900">Upgrading Plan</div>
+          <div class="text-2xl mb-4 text-gray-900">Messages</div>
           {}
           {}
         </div>
@@ -46,7 +46,7 @@ public class MainPage extends Component {
 // Passing text/nodes/functions to {} places in string (not in a formatting matter, so that's gonna be a nightmare)
       messageHtml, 
       refreshButton 
-    );
+    ).render();
   }
 }
 ```
