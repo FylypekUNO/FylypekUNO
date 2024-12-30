@@ -1,5 +1,5 @@
 ## Currently Focused On:
-### [Recreating Web DOM in Android](https://github.com/FylypekUNO/web-dom-in-android) - Teacher said the app has to be written in Android Studio, WebView doesn't sound right for that, so i found a better idea
+### [Recreating Web DOM in Android](https://github.com/FylypekUNO/web-dom-in-android) - Teacher said that the app has to be written in Android Studio, WebView doesn't sound right for that, so i found a better idea
 
 Developing a HTML+CSS renderer (DOM, CSSOM and RenderTree) with basic css support \
 Fully in Android Studio, so no javascript engine, client code will be in Java \
