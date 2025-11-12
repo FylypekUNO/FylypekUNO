@@ -16,3 +16,5 @@ www.perplexity.ai##.pr-md > .justify-end.items-center.min-w-0.flex.relative.poin
 www.perplexity.ai##.overflow-x-auto.items-center.h-full.inline-flex.pointer-events-auto.hideScroll
 ! Nov 12, 2025 https://www.perplexity.ai
 www.perplexity.ai##.bg-super.divide-subtlest.ring-subtlest.border-subtlest.justify-center.hover\:opacity-80.duration-200.transition.items-center.cursor-pointer.w-full.flex.relative.md\:gap-sm.px-md.gap-xs.rounded-sm.h-bannerHeight
+! Nov 12, 2025 https://www.google.pl
+www.google.pl##.L4t5Vb.bzdiDe
