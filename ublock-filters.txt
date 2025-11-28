@@ -18,3 +18,19 @@ www.perplexity.ai##.overflow-x-auto.items-center.h-full.inline-flex.pointer-even
 www.perplexity.ai##.bg-super.divide-subtlest.ring-subtlest.border-subtlest.justify-center.hover\:opacity-80.duration-200.transition.items-center.cursor-pointer.w-full.flex.relative.md\:gap-sm.px-md.gap-xs.rounded-sm.h-bannerHeight
 ! Nov 12, 2025 https://www.google.pl
 www.google.pl##.L4t5Vb.bzdiDe
+! Nov 12, 2025 https://www.perplexity.ai
+www.perplexity.ai##.bg-super.divide-subtlest.ring-subtlest.border-subtlest.justify-center.hover\:opacity-80.duration-200.transition.items-center.cursor-pointer.w-full.flex.relative.md\:gap-sm.px-md.gap-xs.rounded-sm.h-bannerHeight
+! Nov 12, 2025 https://www.google.pl
+www.google.pl##.L4t5Vb.bzdiDe
+! Nov 12, 2025 https://www.perplexity.ai
+www.perplexity.ai##.md\:grid.ring-1.shadow-md.rounded-xl.grid-cols-1.max-w-\[320px\].hidden.right-0.bottom-0.fixed.gap-md.bg-base.dark\:ring-subtler.ring-subtlest.m-md.p-sm
+www.perplexity.ai##.rounded-lg.px-3.hover\:opacity-80.inline-flex.origin-center.cursor-pointer.text-sm.h-8.text-inverse.border-transparent.border.bg-super.whitespace-nowrap.leading-loose.justify-center.items-center.text-center.font-sans.font-semimedium.select-none.interactable.reset
+! Nov 14, 2025 https://frekwencja.edu.pl
+frekwencja.edu.pl##.sm\:block.col-span-6.max-lg\:col-span-6.max-md\:col-span-6
+frekwencja.edu.pl##div.max-md\:col-span-6.col-span-3.bg-surface-300.mb-4.p-4.card:nth-of-type(1)
+frekwencja.edu.pl##.p-4.items-center.gap-y-2.flex-col.flex.snackbar
+frekwencja.edu.pl##.col-span-3.max-lg\:col-span-6.max-md\:col-span-6
+! Nov 27, 2025 https://www.perplexity.ai
+www.perplexity.ai##a.justify-center.items-center.flex-col.w-full.flex.group.gap-two.p-sm:nth-of-type(4)
+www.perplexity.ai##a.justify-center.items-center.flex-col.w-full.flex.group.gap-two.p-sm:nth-of-type(2)
+
