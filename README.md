@@ -1,5 +1,7 @@
 ## Actively using
-[![My Skills](https://skillicons.dev/icons?i=vscode,nextjs,nodejs,js,ts)](https://skillicons.dev) /
+[![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev) /
+[![My Skills](https://skillicons.dev/icons?i=bun,nodejs,js,ts)](https://skillicons.dev) /
+[![My Skills](https://skillicons.dev/icons?i=nextjs)](https://skillicons.dev) /
 [![My Skills](https://skillicons.dev/icons?i=py)](https://skillicons.dev) 
 
 ## Used in the past
