@@ -1,6 +1,6 @@
 ## Actively using
-[![My Skills](https://skillicons.dev/icons?i=vscode,nextjs,nodejs,js,ts)](https://skillicons.dev)
-[![My Skills](https://skillicons.dev/icons?i=py)](https://skillicons.dev) /
+[![My Skills](https://skillicons.dev/icons?i=vscode,nextjs,nodejs,js,ts)](https://skillicons.dev) /
+[![My Skills](https://skillicons.dev/icons?i=py)](https://skillicons.dev) 
 
 ## Used in the past
 [![My Skills](https://skillicons.dev/icons?i=robloxstudio,lua)](https://skillicons.dev) /
